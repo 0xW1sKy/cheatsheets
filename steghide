@@ -1,0 +1,8 @@
+#Embed a file in another file
+steghide embed -cf picture.jpg -ef secret.txt
+
+#Query a recieved file for info
+steghide info received_file.wav
+
+#Extract info from a file
+steghide extract -sf picture.jpg
